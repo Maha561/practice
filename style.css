@@ -1,0 +1,17 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  .homepage{
+    img{
+        width: 40%;
+        
+    }
+    a{
+        padding-left: 3%;
+    }
+
+  }
+  
