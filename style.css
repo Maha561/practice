@@ -7,11 +7,29 @@
   .homepage{
     img{
         width: 40%;
+        background-attachment: fixed;
         
     }
     a{
         padding-left: 3%;
     }
+    .top{
+      padding-left: 40px;
+    }
+    .TOP{
+      
+      width:fit-content;
+      padding-left: 30;
+    }
+    
+    
 
+    
+
+  }
+  .jasmine{
+    width:fit-content;
+      padding-left: 10%;
+    
   }
   
