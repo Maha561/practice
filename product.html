@@ -240,4 +240,24 @@ Fragrance: 🌿 Invigorating eucalyptus and mint
 <hr>
 </center>
 <hr>
+<h2>Sort Soaps</h2>
+<button onclick="sortSoaps('reviews')">Most Reviewed</button>
+<button onclick="sortSoaps('purchases')">Most Purchased</button>
 
+<ul id="soapList"></ul>
+
+<script>
+function sortSoaps(type) {
+    fetch(`/sort?type=${type}`)
+    .then(response => response.json())
+    .then(data => {
+        const list = document.getElementById("soapList");
+        list.innerHTML = "";
+        data.forEach(soap => {
+            const item = document.createElement("li");
+            item.innerText = `${soap.name} - ${soap.skin_type} - Reviews: ${soap.reviews}, Purchases: ${soap.purchases}`;
+            list.appendChild(item);
+        });
+    });
+}
+</script>

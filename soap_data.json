@@ -1,0 +1,21 @@
+
+[
+  {
+    "name": "Aloe Vera Soap",
+    "skin_type": "Dry",
+    "reviews": 120,
+    "purchases": 250
+  },
+  {
+    "name": "Charcoal Soap",
+    "skin_type": "Oily",
+    "reviews": 210,
+    "purchases": 320
+  },
+  {
+    "name": "Honey Soap",
+    "skin_type": "Sensitive",
+    "reviews": 180,
+    "purchases": 290
+  }
+]
